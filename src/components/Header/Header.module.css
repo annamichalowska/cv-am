@@ -2,18 +2,40 @@
   background-color: #ffcdb2;
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0;
   color: #6d6875;
-  /* padding: 20px; */
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .box {
+    flex-direction: row;
+  }
 }
 
 .photo-box {
-  margin: 0 20px 20px 20px;
+  margin: 0 40px 0 40px;
   background-color: #ffe4d6;
   border-radius: 0 0 50% 50%;
-  padding: 50px 20px 20px 20px;
+  padding: 40px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .photo-box {
+    margin: 0 15px 15px 15px;
+    padding: 60px 15px 15px 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .photo-box {
+    margin: 0 20px 20px 20px;
+    padding: 70px 20px 20px 20px;
+  }
 }
 
 .photo {
@@ -22,15 +44,74 @@
 }
 
 .header {
-  padding: 30px;
+  padding: 10px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header {
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    padding: 30px;
+  }
 }
 
 .title {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .title {
+    font-size: 50px;
+  }
 }
 
 .profession {
-  font-size: 25px;
+  font-size: 15px;
   font-weight: 700;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .profession {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .profession {
+    font-size: 25px;
+  }
+}
+
+.description {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .description {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .description {
+    font-size: 15px;
+  }
 }
