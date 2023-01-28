@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Ice Cream",
+    "describe": "Ice Cream company site. Neat and tasty design, responsible for the layout.",
+    "languages": "HTML5, CSS3, JS",
+    "site": "https://annamichalowska.github.io/Ice-Cream-Project-GoIT/",
+    "git": "https://github.com/annamichalowska/Ice-Cream-Project-GoIT"
+  },
+  {
+    "title": "Films Library",
+    "describe": "Project about searching movies and adding favourite movies to a client personal library.",
+    "languages": "HTML5, CSS3, JS, npm-packages",
+    "site": "https://annamichalowska.github.io/Films-Library/",
+    "git": "https://github.com/annamichalowska/Films-Library"
+  }
+]
