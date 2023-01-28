@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/annamichalowska.github.io/cv-AM/static/css/main.ccb34d78.css",
+    "main.css": "/annamichalowska.github.io/cv-AM/static/css/main.38fc3aaa.css",
     "main.js": "/annamichalowska.github.io/cv-AM/static/js/main.c4886c15.js",
     "static/media/am.jpg": "/annamichalowska.github.io/cv-AM/static/media/am.30fe47b33c282c22e2f5.jpg",
     "index.html": "/annamichalowska.github.io/cv-AM/index.html",
-    "main.ccb34d78.css.map": "/annamichalowska.github.io/cv-AM/static/css/main.ccb34d78.css.map",
+    "main.38fc3aaa.css.map": "/annamichalowska.github.io/cv-AM/static/css/main.38fc3aaa.css.map",
     "main.c4886c15.js.map": "/annamichalowska.github.io/cv-AM/static/js/main.c4886c15.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccb34d78.css",
+    "static/css/main.38fc3aaa.css",
     "static/js/main.c4886c15.js"
   ]
 }
