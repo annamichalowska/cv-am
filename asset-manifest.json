@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/annamichalowska.github.io/cv-AM/static/css/main.7acaea2f.css",
+    "main.js": "/annamichalowska.github.io/cv-AM/static/js/main.07d3183d.js",
+    "index.html": "/annamichalowska.github.io/cv-AM/index.html",
+    "main.7acaea2f.css.map": "/annamichalowska.github.io/cv-AM/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/annamichalowska.github.io/cv-AM/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
