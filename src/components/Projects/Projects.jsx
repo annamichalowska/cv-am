@@ -1,6 +1,12 @@
 // import PropTypes from 'prop-types';
 import css from './Projects.module.css';
+
+import photo1 from '../Image/ice-cream.png';
+import photo2 from '../Image/movie.png';
+
 import { BsLink45Deg, BsGithub } from 'react-icons/bs';
+
+const projectImg = [photo1, photo2];
 
 export const Projects = ({ projects }) => {
   return (
@@ -10,10 +16,14 @@ export const Projects = ({ projects }) => {
       </div>
       <div className={css.projects}>
         {projects.map(
-          ({ title, describe, languages, site, git, image, alt }) => (
+          ({ title, describe, languages, site, git, alt }, images) => (
             <figure className={css.items}>
               <div className={css.block}>
-                <img src={image} alt={alt} className={css.image}></img>
+                <img
+                  src={projectImg[images]}
+                  alt={alt}
+                  className={css.image}
+                ></img>
                 <div className={css.animation}>
                   <p className={css.describe}>{describe}</p>
                 </div>

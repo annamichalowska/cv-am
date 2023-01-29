@@ -5,7 +5,6 @@
     "languages": "HTML5, CSS3, JS",
     "site": "https://annamichalowska.github.io/Ice-Cream-Project-GoIT/",
     "git": "https://github.com/annamichalowska/Ice-Cream-Project-GoIT",
-    "image": "https://www.shutterstock.com/image-vector/ice-cream-icon-600w-511365280.jpg",
     "alt": "Ice Cream"
   },
   {
@@ -14,7 +13,6 @@
     "languages": "HTML5, CSS3, JS, npm-packages",
     "site": "https://annamichalowska.github.io/Films-Library/",
     "git": "https://github.com/annamichalowska/Films-Library",
-    "image": "https://www.shutterstock.com/image-vector/ice-cream-icon-600w-511365280.jpg",
-    "alt": "Ice Cream"
+    "alt": "Movie"
   }
 ]
