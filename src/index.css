@@ -13,6 +13,9 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #6d6875;
+  background-image: url('/src/components/Image/background.png');
+  background-repeat: repeat;
+  background-size: contain;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
