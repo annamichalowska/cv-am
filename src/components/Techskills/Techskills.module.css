@@ -1,0 +1,37 @@
+.box {
+  background-color: #ffcdb2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  color: #6d6875;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .box {
+    margin-bottom: 0;
+  }
+}
+
+.header {
+  background-color: #ffe4d6;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.skills {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

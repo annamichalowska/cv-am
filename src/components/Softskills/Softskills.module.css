@@ -1,0 +1,30 @@
+.box {
+  background-color: #ffcdb2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: center;
+  margin: 0;
+  color: #6d6875;
+  border-radius: 10px;
+}
+
+.header {
+  background-color: #ffe4d6;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.skills {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
