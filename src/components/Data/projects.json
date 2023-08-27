@@ -3,16 +3,24 @@
     "title": "Ice Cream",
     "describe": "Ice Cream company site. Neat and tasty design, responsible for the layout.",
     "languages": "HTML5, CSS3, JS",
-    "site": "https://annamichalowska.github.io/Ice-Cream-Project-GoIT/",
-    "git": "https://github.com/annamichalowska/Ice-Cream-Project-GoIT",
+    "site": "https://annamowinska.github.io/Ice-Cream-Project-GoIT/",
+    "git": "https://github.com/annamowinska/Ice-Cream-Project-GoIT",
     "alt": "Ice Cream"
   },
   {
     "title": "Films Library",
     "describe": "Project about searching movies and adding favourite movies to a client personal library.",
     "languages": "HTML5, CSS3, JS, npm-packages",
-    "site": "https://annamichalowska.github.io/Films-Library/",
-    "git": "https://github.com/annamichalowska/Films-Library",
+    "site": "https://annamowinska.github.io/Films-Library/",
+    "git": "https://github.com/annamowinska/Films-Library",
     "alt": "Movie"
+  },
+  {
+    "title": "Wallet",
+    "describe": "Project about controlling your expenses.",
+    "languages": "React, Node.js, Axios, Styled Components, MongoDB",
+    "site": "http://szymonogniewski.github.io/wallet-team-project/",
+    "git": "https://github.com/SzymonOgniewski/wallet-team-project",
+    "alt": "Wallet"
   }
 ]

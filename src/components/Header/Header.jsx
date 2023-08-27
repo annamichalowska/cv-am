@@ -9,7 +9,7 @@ export const Header = () => {
         <img src={photo} alt="annamichalowska" className={css.photo} />
       </div>
       <div className={css.header}>
-        <h1 className={css.title}>Anna Michałowska</h1>
+        <h1 className={css.title}>Anna Mówińska</h1>
         <h3 className={css.profession}>JUNIOR FRONT-END DEVELOPER</h3>
         <p className={css.description}>
           I’m a Junior Front-End developer. I focus on HTML5, CSS3, JS, React.

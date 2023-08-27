@@ -32,6 +32,29 @@
 }
 
 .skills {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 10px;
+  list-style: none;
+}
+
+.text {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ;
+}
+
+.icons {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between ;
+}
+
+.icon, .node {
+  fill: #ffcdb2;
+  width: 70px;
+  height: 70px;
+}
+
+.node {
+  fill: #6d6875;
 }

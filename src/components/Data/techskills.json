@@ -1,10 +1,12 @@
 [
-  { "techskills": "HTML5"},
-  { "techskills": "CSS3" },
-  { "techskills": "Java Script" },
   { "techskills": "GIT" },
+  { "techskills": "Github" },
   { "techskills": "SASS" },
+  { "techskills": "SCSS" },
+  { "techskills": "Styled Components" },
   { "techskills": "Figma" },
   { "techskills": "REST API" },
+  { "techskills": "MongoDB" },
+  { "techskills": "POSTMAN" },
   { "techskills": "Responsive web design" }
 ]
