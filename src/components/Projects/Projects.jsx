@@ -1,6 +1,5 @@
 // import PropTypes from 'prop-types';
 import css from './Projects.module.css';
-
 import photo1 from '../Image/icecream.png';
 import photo2 from '../Image/movie.png';
 import photo3 from '../Image/wallet.png';

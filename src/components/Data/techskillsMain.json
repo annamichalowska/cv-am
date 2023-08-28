@@ -1,7 +1,7 @@
 [
-  { "techskillsMain": "Java Script" },
-  { "techskillsMain": "React" },
-  { "techskillsMain": "HTML5"},
-  { "techskillsMain": "CSS3" },
-  { "techskillsMain": "Node.js" }
+  { "techskillsMain": "Java Script", "icon": "TbBrandJavascript" },
+  { "techskillsMain": "React", "icon": "TbBrandReact" },
+  { "techskillsMain": "HTML5", "icon": "TbBrandHtml5" },
+  { "techskillsMain": "CSS3", "icon": "TbBrandCss3" },
+  { "techskillsMain": "Node.js", "icon": "FaNode" }
 ]

@@ -1,12 +1,13 @@
 [
-  { "techskills": "GIT" },
-  { "techskills": "Github" },
-  { "techskills": "SASS" },
-  { "techskills": "SCSS" },
-  { "techskills": "Styled Components" },
-  { "techskills": "Figma" },
-  { "techskills": "REST API" },
-  { "techskills": "MongoDB" },
-  { "techskills": "POSTMAN" },
-  { "techskills": "Responsive web design" }
+  { "techskills": "GIT", "icon": "DiGit" },
+  { "techskills": "Github", "icon": "TbBrandGithubFilled" },
+  { "techskills": "SASS", "icon": "SiSass" },
+  { "techskills": "SCSS", "icon": "BsFiletypeScss" },
+  
+  { "techskills": "Figma", "icon": "SiFigma" },
+  { "techskills": "REST API", "icon": "SiSwagger" },
+  { "techskills": "MongoDB", "icon": "SiMongodb" },
+  { "techskills": "POSTMAN", "icon": "SiPostman" },
+  { "techskills": "Responsive Web Design", "icon": "DiResponsive" },
+  { "techskills": "Styled Components", "icon": "SiStyledcomponents" }
 ]
