@@ -8,12 +8,10 @@ import { Softskills } from 'components/Softskills/Softskills';
 import projects from 'components/Data/projects.json';
 import techskills from 'components/Data/techskills.json';
 import softskills from 'components/Data/softskills.json';
-import { TbLayoutNavbar } from 'react-icons/tb';
 
 export const App = () => {
   return (
     <div>
-      <Navbar />
       <Header />
       <Projects projects={projects} />
       <div className={css.box}>
