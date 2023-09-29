@@ -36,7 +36,7 @@ const iconComponents = {
 
 export const Techskills = ({ techskills }) => {
   return (
-    <div className={css.box}>
+    <div className={css.box} id="skills">
       <div className={css.header}>
         <h2 className={css.name}>Tech Skills</h2>
       </div>

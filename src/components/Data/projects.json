@@ -22,5 +22,13 @@
     "site": "http://szymonogniewski.github.io/wallet-team-project/",
     "git": "https://github.com/SzymonOgniewski/wallet-team-project",
     "alt": "Wallet"
+  },
+  {
+    "title": "Phonebook",
+    "describe": "Contact manager. Project about save your own contacts.",
+    "languages": "React, Axios, Styled Components",
+    "site": "https://annamowinska.github.io/goit-react-hw-08-phonebook",
+    "git": "https://github.com/annamowinska/goit-react-hw-08-phonebook",
+    "alt": "Phonebook"
   }
 ]

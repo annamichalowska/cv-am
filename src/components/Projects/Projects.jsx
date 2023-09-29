@@ -3,14 +3,15 @@ import css from './Projects.module.css';
 import photo1 from '../Image/icecream.png';
 import photo2 from '../Image/movie.png';
 import photo3 from '../Image/wallet.png';
+import photo4 from '../Image/phonebook.png';
 
 import { BsLink45Deg, BsGithub } from 'react-icons/bs';
 
-const projectImg = [photo1, photo2, photo3];
+const projectImg = [photo1, photo2, photo3, photo4];
 
 export const Projects = ({ projects }) => {
   return (
-    <div className={css.box}>
+    <div className={css.box} id="projects">
       <div className={css.header}>
         <h2 className={css.name}>Projects</h2>
       </div>

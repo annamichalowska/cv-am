@@ -1,9 +1,10 @@
 .box {
   background-color: #ffcdb2;
   width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   margin: 0;
   color: #6d6875;
@@ -42,7 +43,16 @@
   margin: 0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .projects {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .projects {
     flex-direction: row;
   }
@@ -66,7 +76,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .items:not(:last-child) {
     border-bottom: solid 0px #ffcdb2;
     border-right: solid 4px #6d6875;

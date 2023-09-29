@@ -1,0 +1,36 @@
+.box {
+    background-color: #ffcdb2;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    color: #6d6875;
+    border-radius: 10px;
+    animation: 2s ease-out 0s 1 slideInLeft;
+    margin-bottom: 10px;
+  }
+  
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .header {
+    background-color: #ffe4d6;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+  }
+  
+  .name {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
