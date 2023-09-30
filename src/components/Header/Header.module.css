@@ -15,11 +15,9 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    height: 60vh;
     padding-top: 60px;
   }
 }
-
 
 .box {
   display: flex;
@@ -108,10 +106,14 @@
 
 @media screen and (min-width: 1200px) {
   .title {
-    font-size: 70px;
+    font-size: 60px;
     padding: 20px 0 20px 0;
     background-color: #ffe4d6;
   }
+}
+
+.surname {
+color: #b5838d;
 }
 
 @media screen and (min-width: 768px) {
@@ -200,6 +202,7 @@
 @media screen and (min-width: 1200px) {
   .text {
     font-size: 30px;
+    padding: 0 0 0 50px;
   }
 }
 
@@ -215,15 +218,18 @@
 
 @media screen and (min-width: 1200px) {
   .arrow {
-    max-width: 100px;
+    max-width: 150px;
   }
+}
+
+.button-box {
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 1199px) {
   .button-box {
     margin-right: 15px;
-    display: flex;
-    flex-direction: column;
   }
 }
 
@@ -233,9 +239,14 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .button-box {
+    padding: 0 50px 30px 0;
+  }
+}
+
 .button {
   border-radius: 10px;
-  color:   #ffe4d6;
   font-size: 12px;
   font-weight: 700;
   padding: 5px 10px;
@@ -253,9 +264,24 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .button {
+    padding: 10px 20px;
+  }
+}
+
 .button:hover, .button:focus  {
-  color: #6d6875;
   background: linear-gradient(to bottom, #89B0AE, #b5838d);
   transform: translateY(-2px);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.link {
+  color: #ffe4d6;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.link:hover, .link:focus  {
+  color: #6d6875;
 }

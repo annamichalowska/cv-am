@@ -4,10 +4,12 @@ import photo1 from '../Image/icecream.png';
 import photo2 from '../Image/movie.png';
 import photo3 from '../Image/wallet.png';
 import photo4 from '../Image/phonebook.png';
+import photo5 from '../Image/search.png';
+import photo6 from '../Image/webstudio.png';
 
 import { BsLink45Deg, BsGithub } from 'react-icons/bs';
 
-const projectImg = [photo1, photo2, photo3, photo4];
+const projectImg = [photo1, photo2, photo3, photo4, photo5, photo6];
 
 export const Projects = ({ projects }) => {
   return (
@@ -16,6 +18,7 @@ export const Projects = ({ projects }) => {
         <h2 className={css.name}>Projects</h2>
       </div>
       <div className={css.projects}>
+        <div className={css.wrapper}>
         {projects.map(
           ({ title, describe, languages, site, git, alt }, images) => (
             <figure className={css.items} key={images}>
@@ -44,6 +47,7 @@ export const Projects = ({ projects }) => {
             </figure>
           )
         )}
+        </div>
       </div>
     </div>
   );

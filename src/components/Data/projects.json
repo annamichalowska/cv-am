@@ -1,23 +1,23 @@
 [
   {
     "title": "Ice Cream",
-    "describe": "Ice Cream company site. Neat and tasty design, responsible for the layout.",
-    "languages": "HTML5, CSS3, JS",
+    "describe": "Group project about Ice Cream company site. Neat and tasty design, responsible for the layout.",
+    "languages": "HTML5, CSS3, Java Script",
     "site": "https://annamowinska.github.io/Ice-Cream-Project-GoIT/",
     "git": "https://github.com/annamowinska/Ice-Cream-Project-GoIT",
     "alt": "Ice Cream"
   },
   {
     "title": "Films Library",
-    "describe": "Project about searching movies and adding favourite movies to a client personal library.",
-    "languages": "HTML5, CSS3, JS, npm-packages",
+    "describe": "Group project about searching movies and adding favourite movies to a client personal library.",
+    "languages": "HTML5, CSS3, Java Script, Npm-packages",
     "site": "https://annamowinska.github.io/Films-Library/",
     "git": "https://github.com/annamowinska/Films-Library",
     "alt": "Movie"
   },
   {
     "title": "Wallet",
-    "describe": "Project about controlling your expenses.",
+    "describe": "Group project about controlling your expenses.",
     "languages": "React, Node.js, Axios, Styled Components, MongoDB",
     "site": "http://szymonogniewski.github.io/wallet-team-project/",
     "git": "https://github.com/SzymonOgniewski/wallet-team-project",
@@ -26,9 +26,25 @@
   {
     "title": "Phonebook",
     "describe": "Contact manager. Project about save your own contacts.",
-    "languages": "React, Axios, Styled Components",
+    "languages": "React, REST API, Styled Components",
     "site": "https://annamowinska.github.io/goit-react-hw-08-phonebook",
     "git": "https://github.com/annamowinska/goit-react-hw-08-phonebook",
     "alt": "Phonebook"
+  },
+  {
+    "title": "Image search engine",
+    "describe": "Website that allows you to easily search for images, providing access to a diverse and extensive library of visual materials.",
+    "languages": "Java Script, SASS, Await, Notiflix, Axios",
+    "site": "https://annamowinska.github.io/goit-js-hw-11/",
+    "git": "https://github.com/annamowinska/goit-js-hw-11",
+    "alt": "Image search engine"
+  },
+  {
+    "title": "WebStudio",
+    "describe": "Sample website of a company offering IT services.",
+    "languages": "HTML5, CSS3, BEM, SASS, Mobile First",
+    "site": "https://annamowinska.github.io/goit-markup-hw-08/",
+    "git": "https://github.com/annamowinska/goit-markup-hw-08",
+    "alt": "WebStudio"
   }
 ]

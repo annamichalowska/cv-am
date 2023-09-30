@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 
 export const Navbar = () => {
     const [isNavbarFixed, setIsNavbarFixed] = useState(false);
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
     const handleScroll = () => {
       if (window.scrollY > 0) {
@@ -15,11 +16,21 @@ export const Navbar = () => {
   
     useEffect(() => {
       window.addEventListener("scroll", handleScroll);
+
+      const handleResize = () => {
+        setWindowWidth(window.innerWidth);
+      };
+
+      window.addEventListener("resize", handleResize);
+      
       return () => {
         window.removeEventListener("scroll", handleScroll);
+        window.removeEventListener("resize", handleResize);
       };
     }, []);
-  
+    
+    const isMobile = windowWidth <= 767;
+
     const navbarClassName = isNavbarFixed ? `${css.box} ${css.fixed}` : css.box;
 
     const scrollToSection = (id) => {
@@ -39,7 +50,7 @@ export const Navbar = () => {
       };
 
   return (
-    <nav className={navbarClassName}>
+    <nav className={isMobile ? css.hidden : navbarClassName}>
         <ul className={css.list}>
         {['home', 'about', 'projects', 'skills', 'contact'].map((item) => (
           <li className={css.item} key={`link-${item}`}>
