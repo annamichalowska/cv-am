@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/cv-AM/static/css/main.8355d964.css",
-    "main.js": "/cv-AM/static/js/main.e367c8b9.js",
-    "static/media/arrow.gif": "/cv-AM/static/media/arrow.132a9adb059f05ee3f28.gif",
+    "main.css": "/cv-AM/static/css/main.b4a6e4b1.css",
+    "main.js": "/cv-AM/static/js/main.483e2fbb.js",
+    "static/media/arrow.gif": "/cv-AM/static/media/arrow.2aab0cc5e82f69c07c89.gif",
     "static/media/background.png": "/cv-AM/static/media/background.f73dba6d137ffc391775.png",
     "static/media/am.jpg": "/cv-AM/static/media/am.30fe47b33c282c22e2f5.jpg",
     "static/media/wallet.png": "/cv-AM/static/media/wallet.690c2a89dbd1d9cbb7fc.png",
+    "static/media/search.png": "/cv-AM/static/media/search.c4ea9736c40cfa487475.png",
     "static/media/phonebook.png": "/cv-AM/static/media/phonebook.d6e5b10271c49538bd6a.png",
+    "static/media/webstudio.png": "/cv-AM/static/media/webstudio.a0ff863f63ba9cc9b593.png",
     "static/media/movie.png": "/cv-AM/static/media/movie.a7312283d41d416ffac7.png",
     "static/media/icecream.png": "/cv-AM/static/media/icecream.001835379269275e5309.png",
     "index.html": "/cv-AM/index.html",
-    "main.8355d964.css.map": "/cv-AM/static/css/main.8355d964.css.map",
-    "main.e367c8b9.js.map": "/cv-AM/static/js/main.e367c8b9.js.map"
+    "main.b4a6e4b1.css.map": "/cv-AM/static/css/main.b4a6e4b1.css.map",
+    "main.483e2fbb.js.map": "/cv-AM/static/js/main.483e2fbb.js.map"
   },
   "entrypoints": [
-    "static/css/main.8355d964.css",
-    "static/js/main.e367c8b9.js"
+    "static/css/main.b4a6e4b1.css",
+    "static/js/main.483e2fbb.js"
   ]
 }
