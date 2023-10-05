@@ -9,7 +9,8 @@ export const About = () => {
   const [activeSection, setActiveSection] = useState("");
   const scrollToSection = (id) => {
     setActiveSection(id);
-
+    console.log(activeSection);
+    
     const section = document.getElementById(id);
     if (section) {
       window.scrollTo({
