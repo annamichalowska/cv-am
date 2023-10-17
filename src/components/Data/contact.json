@@ -1,0 +1,6 @@
+[
+  { "contact": "e-mail", "icon": "AiOutlineMail" },
+  { "contact": "phone", "icon": "AiOutlinePhone" },
+  { "contact": "github", "icon": "AiOutlineGithub" },
+  { "contact": "linkedin", "icon": "BiLogoLinkedin" }
+]
