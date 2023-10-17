@@ -66,8 +66,6 @@ export const Techskills = ({ techskills }) => {
           );
         })}
         </div>
-        
-      
     </div>
   );
 };

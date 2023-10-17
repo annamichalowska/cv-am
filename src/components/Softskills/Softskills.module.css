@@ -27,6 +27,38 @@
 }
 
 .skills {
-  padding-top: 20px;
-  padding-bottom: 20px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+width: 100%;
+padding-top: 10px;
+}
+
+.softskills {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 20px 20px 50px;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color:#6d6875;
+  background-color:#ffe4d6;
+  border-radius: 20%;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px;
 }

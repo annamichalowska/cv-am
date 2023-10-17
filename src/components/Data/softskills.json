@@ -1,7 +1,7 @@
 [
-  { "softskills": "Hardworking" },
-  { "softskills": "Responsibility" },
-  { "softskills": "Comunication skills" },
-  { "softskills": "Teamwork" },
-  { "softskills": "Time management skills" }
+  { "softskills": "Hardworking", "icon": "BsPersonWorkspace" },
+  { "softskills": "Responsibility", "icon": "BsFillAwardFill" },
+  { "softskills": "Comunication skills", "icon": "AiOutlineComment" },
+  { "softskills": "Teamwork", "icon": "RiTeamFill" },
+  { "softskills": "Time management skills", "icon": "AiOutlineFieldTime" }
 ]
