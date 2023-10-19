@@ -2,9 +2,9 @@
 import css from './Softskills.module.css';
 import softskillsData from '../Data/softskills';
 import { IconContext } from 'react-icons';
-import { BsPersonWorkspace, BsFillAwardFill } from 'react-icons/bs'
-import { AiOutlineComment, AiOutlineFieldTime } from 'react-icons/ai'
-import { RiTeamFill } from 'react-icons/ri'
+import { BsPersonWorkspace, BsFillAwardFill } from 'react-icons/bs';
+import { AiOutlineComment, AiOutlineFieldTime } from 'react-icons/ai';
+import { RiTeamFill } from 'react-icons/ri';
 
 const iconComponents = {
   BsPersonWorkspace: BsPersonWorkspace,

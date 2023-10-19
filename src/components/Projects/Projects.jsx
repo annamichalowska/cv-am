@@ -36,10 +36,10 @@ export const Projects = ({ projects }) => {
                 <h3 className={css.title}>{title}</h3>
                 <p className={css.languages}>{languages}</p>
                 <div className={css.link}>
-                  <a href={site}>
+                  <a href={site} target="_blank" rel="noreferrer">
                     <BsLink45Deg className={css['icon-site']}></BsLink45Deg>
                   </a>
-                  <a href={git}>
+                  <a href={git} target="_blank" rel="noreferrer">
                     <BsGithub className={css['icon-git']}></BsGithub>
                   </a>
                 </div>
