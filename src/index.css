@@ -12,7 +12,7 @@ body {
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #6d6875;
+  background-color: var(--grey-color);
   background-image: url('/src/components/Image/background.png');
   background-repeat: repeat;
   background-size: contain;
@@ -44,4 +44,12 @@ code {
   #root {
     width: 1100px;
   }
+}
+
+:root {
+  --grey-color: #6d6875;
+  --red-color:#b5838d;
+  --green-color: #89B0AE;
+  --light-color: #ffe4d6;
+  --cream-color: #ffcdb2;
 }

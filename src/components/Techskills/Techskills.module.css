@@ -1,5 +1,5 @@
 .box {
-  background-color: #ffcdb2;
+  background-color: var(--cream-color);
   width: 100%;
   height: auto;
   display: flex;
@@ -7,7 +7,7 @@
   justify-content: flex-start;
   align-items: center;
   margin: 0;
-  color: #6d6875;
+  color: var(--grey-color);
   border-radius: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -20,7 +20,7 @@
 }
 
 .header {
-  background-color: #ffe4d6;
+  background-color: var(--light-color);
   width: 100%;
   border-radius: 10px 10px 0 0;
   text-align: center;
@@ -104,8 +104,8 @@
   display: flex;
   justify-content: center;
   padding: 20px;
-  color: #b5838d;
-  background-color:#ffe4d6;
+  color: var(--red-color);
+  background-color:var(--light-color);
   border-radius: 20%;
 }
 
@@ -129,8 +129,8 @@
   display: flex;
   justify-content: center;
   padding: 10px;
-  color: #89B0AE;
-  background-color:#ffe4d6;
+  color: var(--green-color);
+  background-color:var(--light-color);
   border-radius: 20%;
 }
 

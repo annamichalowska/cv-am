@@ -1,5 +1,5 @@
 .container {
-    background-color: #ffcdb2;
+    background-color: var(--cream-color);
     width: 100%;
     height: 80vh;
     display: flex;
@@ -7,7 +7,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     margin: 0;
-    color: #6d6875;
+    color: var(--grey-color);
     animation: 2s ease-out 0s 1 slideInUp;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -79,7 +79,7 @@
   }
 
   .name {
-    color:#b5838d;
+    color:var(--red-color);
     
   }
 
@@ -133,7 +133,7 @@
   }
 
   .level {
-    color:#89B0AE;
+    color:var(--green-color);
   }
 
   @media screen and (min-width: 768px) {
@@ -200,7 +200,6 @@
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     .arrow {
       max-width: 90px;
-      transform: rotate(90deg);
       margin-bottom: 0;
     }
   }
@@ -241,7 +240,7 @@
     cursor: pointer;
     border: none;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    background-color: #ffcdb2;
+    background-color: var(--cream-color);
     transition: background-color 0.3s ease, transform 0.2s ease;
   }
   
@@ -263,35 +262,35 @@
   }
   
   .projects {
-    border: solid 3px #89B0AE;
+    border: solid 3px var(--green-color);
   }
   
   .projects:hover {
-    background-color: #89B0AE;
+    background-color: var(--green-color);
   }
   
   .skills {
-    border: solid 3px #b5838d;
+    border: solid 3px var(--red-color);
   }
   
   .skills:hover {
-    background-color: #b5838d;
+    background-color: var(--red-color);
   }
   
   .contact {
-    border: solid 3px #ffe4d6;
+    border: solid 3px var(--light-color);
   }
   
   .contact:hover {
-    background-color: #ffe4d6;
+    background-color: var(--light-color);
   }
   
   .link {
-    color: #6d6875;
+    color: var(--grey-color);
     text-decoration: none;
     text-transform: uppercase;
   }
   
   .link:hover, .link:focus  {
-    color: #6d6875;
+    color: var(--grey-color);
   }

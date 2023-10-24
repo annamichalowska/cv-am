@@ -1,6 +1,6 @@
 // import PropTypes from 'prop-types';
 import css from './Contact.module.css';
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import photo from '../Image/cv.png';
 import cvFile from '../Data/cv.pdf'
 import contactData from '../Data/contact';
@@ -39,6 +39,24 @@ export const Contact = ({ contact }) => {
     setIsImageEnlarged(!isImageEnlarged);
   };
 
+  const closeImageDialog = () => {
+    setIsImageEnlarged(false);
+  }
+
+  useEffect(() => {
+    const handleEscKeyPress = (event) => {
+      if(isImageEnlarged && event.key === "Escape") {
+        closeImageDialog();
+      }
+    };
+    
+    window.addEventListener("keydown", handleEscKeyPress);
+    
+    return () => {
+      window.removeEventListener("keydown", handleEscKeyPress);
+    };
+  }, [isImageEnlarged]);
+
   return (
     <div className={css.box} id="contact">
       <div className={css.header}>
@@ -58,15 +76,30 @@ export const Contact = ({ contact }) => {
         })}
         </div>
         <div className={css['cv-box']}>
-      <img
-          src={photo}
-          alt="cv"
-          className={`${css.cv} ${isImageEnlarged ? css.enlarged : ""}`}
-          onClick={toggleImageSize}
-        />
-        <button className={css.button} onClick={handleDownload}>Download CV</button>
+          {isImageEnlarged && (
+            <div className={css['cv-dialog']}>
+          <img
+            src={photo}
+            alt="cv"
+            className={`${css.cv} ${isImageEnlarged ? css.enlarged : ""}`}
+            onClick={toggleImageSize}
+          />
+          <button className={css['close-button']} onClick={closeImageDialog}>
+            x
+          </button>
+          </div>
+  )}
+  {!isImageEnlarged && (
+            <img
+              src={photo}
+              alt="cv"
+              className={css.cv}
+              onClick={toggleImageSize}
+            />
+          )}
+          <button className={css.button} onClick={handleDownload}>Download CV</button>
         </div>
-    </div>
+      </div>
     </div>
   );
 };

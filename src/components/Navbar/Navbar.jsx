@@ -82,7 +82,6 @@ export const Navbar = () => {
         <nav className={isMobile ? css.mobileNavbar : navbarClassName}>
           {isMobile && !isMobileMenuOpen && (
             <div className={css.mobileMenuIcon} onClick={toggleMobileMenu}>
-              {/* Burger (menu) */}
               <div className={css.bar}></div>
               <div className={css.bar}></div>
               <div className={css.bar}></div>

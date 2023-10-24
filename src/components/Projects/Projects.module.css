@@ -1,5 +1,5 @@
 .box {
-  background-color: #ffcdb2;
+  background-color: var(--cream-color);
   width: 100%;
   height: auto;
   display: flex;
@@ -7,7 +7,7 @@
   justify-content: flex-start;
   align-items: center;
   margin: 0;
-  color: #6d6875;
+  color: var(--grey-color);
   border-radius: 10px;
   animation: 2s ease-out 0s 1 slideInLeft;
   margin-bottom: 10px;
@@ -23,7 +23,7 @@
 }
 
 .header {
-  background-color: #ffe4d6;
+  background-color: var(--light-color);
   width: 100%;
   border-radius: 10px 10px 0 0;
   text-align: center;
@@ -76,19 +76,19 @@
 
 @media screen and (max-width: 767px) {
   .items:not(:last-child) {
-    border-bottom: solid 4px #6d6875;
+    border-bottom: solid 4px var(--grey-color);
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .items:not(:nth-last-child(-n+2)) {
-    border-bottom: solid 4px #6d6875;
+    border-bottom: solid 4px var(--grey-color);
   }
   .items:nth-child(odd) {
-    border-right: solid 2px #6d6875;
+    border-right: solid 2px var(--grey-color);
   }
   .items:nth-child(even) {
-    border-left: solid 2px #6d6875;
+    border-left: solid 2px var(--grey-color);
   }
 }
 
@@ -103,13 +103,13 @@
     width: calc(33.33% - 4px);
   }
   .items:nth-child(-n+3) {
-    border-bottom: solid 6px #6d6875;
+    border-bottom: solid 6px var(--grey-color);
   }
   .items:nth-child(n):not(:nth-child(3n)) {
-    border-right: solid 4px #6d6875;
+    border-right: solid 4px var(--grey-color);
   }
   .items:not(:nth-child(1)):not(:nth-child(4)) {
-    border-left: solid 2px #6d6875;
+    border-left: solid 2px var(--grey-color);
   }
 }
 
@@ -131,7 +131,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #6d6875b9;
+  background-color: var(--grey-color);
   color: #ffe4d6;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -201,33 +201,33 @@
 }
 
 .icon-site {
-  fill: #ffcdb2;
+  fill: var(--cream-color);
   padding: 3px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border: 1px solid #6d6875;
-  background-color: #6d6875;
+  border: 1px solid var(--grey-color);
+  background-color: var(--grey-color);
   margin-right: 20px;
 }
 
 .icon-site:hover {
-  fill: #6d6875;
-  background-color: #ffe4d6;
-  border: 1px solid #6d6875;
+  fill: var(--grey-color);
+  background-color: var(--light-color);
+  border: 1px solid var(--grey-color);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-git {
-  fill: #6d6875;
+  fill: var(--grey-color);
   width: 36px;
   height: 36px;
 }
 
 .icon-git:hover {
-  fill: #ffe4d6;
-  border: 1px solid #6d6875;
-  background-color: #6d6875;
+  fill: var(--light-color);
+  border: 1px solid var(--grey-color);
+  background-color: var(--grey-color);
   border-radius: 50%;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

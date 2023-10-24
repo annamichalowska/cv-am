@@ -3,7 +3,7 @@
 import css from './About.module.css';
 import photo1 from '../Image/am.jpg';
 import photo2 from '../Image/cert.png';
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 export const About = () => {
   const [activeSection, setActiveSection] = useState("");
@@ -25,6 +25,24 @@ export const About = () => {
   const toggleImageSize = () => {
     setIsImageEnlarged(!isImageEnlarged);
   };
+
+  const closeImageDialog = () => {
+    setIsImageEnlarged(false);
+  }
+
+  useEffect(() => {
+    const handleEscKeyPress = (event) => {
+      if(isImageEnlarged && event.key === "Escape") {
+        closeImageDialog();
+      }
+    };
+    
+    window.addEventListener("keydown", handleEscKeyPress);
+    
+    return () => {
+      window.removeEventListener("keydown", handleEscKeyPress);
+    };
+  }, [isImageEnlarged]);
 
   return (
     <div className={css.container} id="about">
@@ -68,12 +86,27 @@ export const About = () => {
               >More information in my CV</a>
             </button>
             </div>
+            {isImageEnlarged && (
+              <div className={css['cert-dialog']}>
             <img
           src={photo2}
           alt="cert"
           className={`${css.cert} ${isImageEnlarged ? css.enlarged : ""}`}
           onClick={toggleImageSize}
         />
+        <button className={css['close-button']} onClick={closeImageDialog}>
+            x
+          </button>
+          </div>
+        )}
+  {!isImageEnlarged && (
+    <img
+    src={photo2}
+    alt="cert"
+    className={`${css.cert} ${isImageEnlarged ? css.enlarged : ""}`}
+    onClick={toggleImageSize}
+  />
+  )}
       </div>
       </div>
   );
