@@ -187,14 +187,14 @@
   
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     .graphics {
-      max-width: 350px;
+      max-width: 300px;
     }
   }
   
   @media screen and (min-width: 1200px) {
     .graphics {
-      max-width: 450px;
-      margin: 0 30px 0 30px;
+      max-width: 350px;
+      margin: 0 20px 0 20px;
     }
   }
   
@@ -211,15 +211,15 @@
   
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     .arrow {
-      max-width: 90px;
+      max-width: 70px;
       margin-bottom: 0;
     }
   }
   
   @media screen and (min-width: 1200px) {
     .arrow {
-      max-width: 150px;
-      margin: 0 30px 0 30px;
+      max-width: 100px;
+      margin: 0 40px 0 0;
     }
   }
   
@@ -233,13 +233,15 @@
         margin-right: 15px;
         display: flex;
         flex-direction: row;
-        padding-top: 50px;
+        padding-top: 30px;
     }
   }
   
   @media screen and (min-width: 1200px) {
     .button-box {
       margin: 0 30px 0 30px;
+      display: flex;
+        flex-direction: row;
     }
   }
   

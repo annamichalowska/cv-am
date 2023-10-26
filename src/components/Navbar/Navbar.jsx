@@ -1,6 +1,6 @@
 // import PropTypes from 'prop-types';
 import css from './Navbar.module.css';
-import logo from '../Image/logo.png';
+import logo from '../Image/logo2.png';
 import React, { useState, useEffect } from "react";
 
 export const Navbar = () => {

@@ -2,7 +2,7 @@ import css from './Home.module.css';
 import arrow from '../Image/arrow.png';
 import React, { useState } from "react";
 import graphics from '../Image/knowme.png';
-import logo from '../Image/logo.png';
+import logo from '../Image/logo2.png';
 
 export const Home = () => {
   const [activeSection, setActiveSection] = useState("");
@@ -23,7 +23,7 @@ export const Home = () => {
     <div className={css.container} id="home">
       <div className={css.header}>
         <p className={css.text}>I'm <span className={css.name}>Anna Mówińska</span></p>
-        <img src={logo} alt="logo" className={css.logo} ></img>
+        <img src={logo} alt="logo" className={css.logo}></img>
         <p className={css.profession}> <span className={css.level}>Junior</span>Frontend Developer
         </p>
       </div>
