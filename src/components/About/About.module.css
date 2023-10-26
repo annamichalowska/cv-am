@@ -250,6 +250,7 @@ color: var(--red-color);
   color: var(--green-color);
   margin: 0;
   padding-bottom: 10px;
+  padding-right: 10px;
 }
 
 .school-box {
