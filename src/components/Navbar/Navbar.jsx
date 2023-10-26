@@ -1,5 +1,6 @@
 // import PropTypes from 'prop-types';
 import css from './Navbar.module.css';
+import logo from '../Image/logo.png';
 import React, { useState, useEffect } from "react";
 
 export const Navbar = () => {
@@ -78,20 +79,30 @@ export const Navbar = () => {
         }
       };
 
+      const currentDate = new Date();
+      const formattedDate = currentDate.toISOString().split('T')[0];
+
       return (
         <nav className={isMobile ? css.mobileNavbar : navbarClassName}>
           {isMobile && !isMobileMenuOpen && (
+        <div className={css.navbar}>
+           <div className={css['date-box']}>
+            <p className={css.date}>{formattedDate}</p>
+            </div>
+            <img src={logo} alt="logo" className={css.logo} ></img>
             <div className={css.mobileMenuIcon} onClick={toggleMobileMenu}>
               <div className={css.bar}></div>
               <div className={css.bar}></div>
               <div className={css.bar}></div>
             </div>
+          </div>
           )}
           {isMobileMenuOpen && isMobile && (
             <div className={css.mobileMenuList}>
               <div className={css.closeIcon} onClick={toggleMobileMenu}>
-                <span className={css.closeBar}>X</span>
+                <span className={css.closeBar}>x</span>
               </div>
+              <img src={logo} alt="logo" className={css['logo-menu']} ></img>
               <ul className={css.mobileMenuLinks}>
                 {['home', 'about', 'projects', 'skills', 'contact'].map((item) => (
                   <li className={css.mobileMenuItem} key={`mobile-link-${item}`}>

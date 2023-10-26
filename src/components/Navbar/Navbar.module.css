@@ -82,13 +82,44 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: rgba(255, 205, 178, 0.7); 
+  background-color: var(--cream-color);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   margin: 0;
   border-radius: 10px;
   z-index: 9999;
-  padding: 10px 0;
   width: 350px;
+  padding: 5px 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.date-box {
+  padding-left: 20px;
+}
+
+.date {
+  color: var(--red-color);
+  font-weight: 700;
+  margin: 0;
+}
+
+.logo {
+  height: auto;
+  width: 60px;
+  margin: 0;
+}
+
+.logo-menu {
+  width: 140px;
+  position: absolute; 
+  top: 50px; 
+  right: 40px; 
 }
 
 .mobileMenuIcon {
@@ -118,6 +149,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  width: 100%;
 }
 
 .closeIcon {
@@ -129,7 +161,7 @@
 }
 
 .closeIcon .closeBar {
-  border-radius: 50%;
+  border-radius: 5px;
   width: 30px;
   height: 30px;
   background-color: var(--red-color);
@@ -137,11 +169,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-weight: 600;
 }
 
 .closeBar {
   color: var(--light-color);
-  font-weight: 600;
 }
 
 .closeIcon:hover .closeBar {
@@ -156,7 +188,7 @@
 }
 
 .mobileMenuItem {
-  margin: 10px 40px;
+  margin: 10px 0;
 }
 
 .mobileMenuLink {
@@ -164,11 +196,14 @@
   text-decoration: none;
   text-transform: uppercase;
   transition: color 0.5s;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .mobileMenuLink:hover {
   color: var(--red-color);
+  border: 3px solid var(--red-color);
+  padding: 2px 7px;
+  border-radius: 5px;
 }
 
 .scroll {
