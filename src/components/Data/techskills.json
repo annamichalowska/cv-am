@@ -8,6 +8,6 @@
   { "techskills": "REST API", "icon": "SiSwagger" },
   { "techskills": "MongoDB", "icon": "SiMongodb" },
   { "techskills": "POSTMAN", "icon": "SiPostman" },
-  { "techskills": "Responsive Web Design", "icon": "DiResponsive" },
+  { "techskills": "RWD", "icon": "DiResponsive" },
   { "techskills": "Styled Components", "icon": "SiStyledcomponents" }
 ]

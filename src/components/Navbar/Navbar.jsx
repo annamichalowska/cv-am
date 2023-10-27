@@ -7,30 +7,6 @@ export const Navbar = () => {
     const [isNavbarFixed, setIsNavbarFixed] = useState(false);
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-    const [showScrollToTopButton, setShowScrollToTopButton] = useState(false);
-
-    function scrollToTop() {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
-    }
-
-    useEffect(() => {
-      function handleScroll() {
-        if (window.scrollY > 200) {
-          setShowScrollToTopButton(true);
-        } else {
-          setShowScrollToTopButton(false);
-        }
-      }
-  
-      window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
     const handleScroll = () => {
       if (window.scrollY > 0) {
@@ -132,11 +108,6 @@ export const Navbar = () => {
               ))}
             </ul>
           )}
-          {showScrollToTopButton && (
-        <div id="scroll-to-top-button" onClick={scrollToTop} className={css.scroll}>
-          <span className={css.arrow}>↑</span>
-        </div>
-      )}
         </nav>
       );
     };

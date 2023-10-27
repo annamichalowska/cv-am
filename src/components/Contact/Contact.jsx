@@ -100,6 +100,9 @@ export const Contact = ({ contact }) => {
           <button className={css.button} onClick={handleDownload}>Download CV</button>
         </div>
       </div>
+      <div className={css.footer}>
+        <p className={css.reserved}> <span className={css.company}>Anna Mówińska </span>2023 <span className={css.sign}>©</span> All Rights Reserved</p>
+      </div>
     </div>
   );
 };

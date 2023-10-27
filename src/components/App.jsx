@@ -6,6 +6,7 @@ import { Projects } from 'components/Projects/Projects';
 import { Techskills } from 'components/Techskills/Techskills';
 import { Softskills } from 'components/Softskills/Softskills';
 import { Contact } from 'components/Contact/Contact';
+import { Arrow } from 'components/Arrow/Arrow';
 import projects from 'components/Data/projects.json';
 import techskills from 'components/Data/techskills.json';
 import softskills from 'components/Data/softskills.json';
@@ -23,6 +24,7 @@ export const App = () => {
         <Softskills className={css.items} softskills={softskills} />
       </div>
       <Contact />
+      <Arrow />
     </div>
   );
 };
