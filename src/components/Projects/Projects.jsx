@@ -7,7 +7,8 @@ import photo4 from '../Image/phonebook.png';
 import photo5 from '../Image/search.png';
 import photo6 from '../Image/webstudio.png';
 
-import { BsLink45Deg, BsGithub } from 'react-icons/bs';
+import { BsLink45Deg } from 'react-icons/bs';
+import { VscGithubAlt } from 'react-icons/vsc';
 
 const projectImg = [photo1, photo2, photo3, photo4, photo5, photo6];
 
@@ -40,7 +41,7 @@ export const Projects = ({ projects }) => {
                     <BsLink45Deg className={css['icon-site']}></BsLink45Deg>
                   </a>
                   <a href={git} target="_blank" rel="noreferrer">
-                    <BsGithub className={css['icon-git']}></BsGithub>
+                    <VscGithubAlt className={css['icon-git']}></VscGithubAlt>
                   </a>
                 </div>
               </figcaption>

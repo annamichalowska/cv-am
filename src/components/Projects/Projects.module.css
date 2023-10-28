@@ -121,29 +121,33 @@
 .items:hover .animation {
   transform: translateY(0);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: none;
 }
 
 .animation {
   position: absolute;
   display: flex;
+  align-items: center;
+  justify-content: center;
   content: '';
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   background-color: var(--grey-color);
-  color: #ffe4d6;
+  color: var(--light-color);
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-top: 1px solid var(--cream-color);
 }
 
 .describe {
-  position: absolute;
   top: 0;
   left: 0;
   font-size: 18px;
   font-weight: 500;
-  padding: 40px;
+  padding: 0 40px;
+  align-content: center;
 }
 
 .block {
@@ -151,6 +155,7 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
+  height: 200px;
 }
 
 .image {
@@ -175,7 +180,7 @@
   flex-direction: column;
   align-content: center;
   justify-content: space-between;
-  padding: 0 20px 20px 20px;
+  padding: 20px;
   height: 44%;
 }
 
@@ -189,6 +194,7 @@
   font-size: 30px;
   font-weight: 600;
   margin: 0;
+  color: var(--red-color);
 }
 
 .languages {
@@ -206,28 +212,31 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border: 1px solid var(--grey-color);
-  background-color: var(--grey-color);
+  border: 2px solid var(--green-color);
+  background-color: var(--green-color);
   margin-right: 20px;
 }
 
 .icon-site:hover {
-  fill: var(--grey-color);
+  fill: var(--green-color);
   background-color: var(--light-color);
-  border: 1px solid var(--grey-color);
+  border: 2px solid var(--green-color);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-git {
-  fill: var(--grey-color);
-  width: 36px;
-  height: 36px;
+  background-color: var(--green-color);
+  fill: var(--cream-color);
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  border: 2px solid var(--green-color);
+  padding: 5px;
 }
 
 .icon-git:hover {
-  fill: var(--light-color);
-  border: 1px solid var(--grey-color);
-  background-color: var(--grey-color);
+  fill: var(--green-color);
+  background-color: var(--light-color);
   border-radius: 50%;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

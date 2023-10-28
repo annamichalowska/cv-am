@@ -1,0 +1,7 @@
+[
+    { "media": "whatsap", "icon": "BiLogoWhatsappSquare" },
+    { "media": "spotify", "icon": "BiLogoSpotify" },
+    { "media": "fb", "icon": "BiLogoFacebookCircle" },
+    { "media": "insta", "icon": "BiLogoInstagramAlt" },
+    { "media": "yt", "icon": "TiSocialYoutubeCircular" }
+  ]

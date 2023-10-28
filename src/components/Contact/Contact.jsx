@@ -4,10 +4,10 @@ import React, { useEffect, useState } from "react";
 import photo from '../Image/cv.png';
 import cvFile from '../Data/cv.pdf'
 import contactData from '../Data/contact';
+import { Footer } from 'components/Footer/Footer';
 import { IconContext } from 'react-icons';
 import { AiOutlineMail, AiOutlinePhone, AiOutlineGithub } from 'react-icons/ai';
 import { BiLogoLinkedin } from 'react-icons/bi';
-
 
 const iconComponents = {
   AiOutlineMail: AiOutlineMail,
@@ -100,9 +100,7 @@ export const Contact = ({ contact }) => {
           <button className={css.button} onClick={handleDownload}>Download CV</button>
         </div>
       </div>
-      <div className={css.footer}>
-        <p className={css.reserved}> <span className={css.company}>Anna Mówińska </span>2023 <span className={css.sign}>©</span> All Rights Reserved</p>
-      </div>
+      <Footer />
     </div>
   );
 };
