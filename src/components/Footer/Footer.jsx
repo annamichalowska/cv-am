@@ -10,9 +10,8 @@ export const Footer = ({ media }) => {
     <div className={css.footer}>
     <img src={photo} alt="logo" className={css.logo} />
     <div className={css['mobile-block']}>
-    <p className={css.reserved}> <span className={css.company}>Anna Mówińska </span>2023 <span className={css.sign}>©</span> All Rights Reserved</p>
     <div className={css['footer-icon']}>
-        <a href={"https://open.spotify.com/user/pieczara89?si=e29f169a094e4366"} className={css['icon-block']} target="_blank" rel="noreferrer">
+        <a href={"https://wa.me/663607685"} className={css['icon-block']} target="_blank" rel="noreferrer">
         <BsWhatsapp className={css['icon-media']}></BsWhatsapp>
       </a>
       <a href={"https://open.spotify.com/user/pieczara89?si=e29f169a094e4366"} className={css['icon-block']} target="_blank" rel="noreferrer">
@@ -27,9 +26,9 @@ export const Footer = ({ media }) => {
       <a href={"https://www.youtube.com/channel/UC2sgNBSuDfwCIkimCymFJCQ"} className={css['icon-block']} target="_blank" rel="noreferrer">
         <BsYoutube className={css['icon-media']}></BsYoutube>
       </a>
-    </div>   
+    </div>  
+    <p className={css.reserved}> <span className={css.company}>Anna Mówińska </span>2023 <span className={css.sign}>©</span> All Rights Reserved</p>
     </div>
-    
   </div>
   );
 };
